@@ -8,10 +8,10 @@ Before you get started, you'll have to
 * Create a single page app in "Applications"
 * Create an email connection in "Connection"
 * Turn on the passwordless email connection in your application
-* add http://localhost:8080 to your "Allowed Callback URLs" list in your Auth0 application
-* add http://localhost:8080/* to your "Allowed Logout URLs" list in your Auth0 application
-* add http://localhost:8080/ to your "Allowed Web Origins" list in your Auth0 application
-* get your applications "Client ID" and "Domain" and put them in the appropriate places in client.js and server.js
+* Add `http://localhost:8080` to your "Allowed Callback URLs" list in your Auth0 application
+* Add `http://localhost:8080/*` to your "Allowed Logout URLs" list in your Auth0 application
+* Add `http://localhost:8080` to your "Allowed Web Origins" list in your Auth0 application
+* Get your applications "Client ID" and "Domain" and put them in the appropriate places in client.js and server.js
 
 running:
 ```
