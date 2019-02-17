@@ -1,17 +1,17 @@
 # Passwordless Demo
 
-This is a demo on how to setup a passwordless auth system using Auth 0. It's only dependency is node-fetch on server side.
+This is a very simple demo on how to setup a Auth0 Passwordless (i.e. login with email code). It's only dependency is `node-fetch` on server side.
 
-before you get started, you'll have to 
-* run `npm install`
-* go create a free auth 0 account. 
-* create a passwordless application.
-* create an email "Connection"
-* turn on the passwordless email connection in your application
-* add http://localhost:8080 to your Callbacks page list in your application
-* add http://localhost:8080/* to your Logout page list in your application
-* add http://localhost:8080/ to your origin list in your application
-* get your applications Client Key and Domain and put them in the appropriate places in client.js and server.js
+Before you get started, you'll have to 
+* Run `npm install`
+* Go create a free Auth0 account at https://www.auth0.com. 
+* Create a single page app in "Applications"
+* Create an email connection in "Connection"
+* Turn on the passwordless email connection in your application
+* add http://localhost:8080 to your "Allowed Callback URLs" list in your Auth0 application
+* add http://localhost:8080/* to your "Allowed Logout URLs" list in your Auth0 application
+* add http://localhost:8080/ to your "Allowed Web Origins" list in your Auth0 application
+* get your applications "Client ID" and "Domain" and put them in the appropriate places in client.js and server.js
 
 running:
 ```
