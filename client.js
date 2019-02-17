@@ -1,6 +1,6 @@
 // Initialize passwordless
 var lock = new Auth0LockPasswordless(
-  "<auth0-client-key>",
+  "<auth0-client-id>",
   "<auth0-domain>.auth0.com"
 );
 
